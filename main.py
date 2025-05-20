@@ -10,4 +10,5 @@ if __name__ == "__main__":
 
     xml_data = fetch_xml_data(url,"","")
     json_data = convert_xml_to_json(xml_data)
+    print(json_data)
     # -upload_to_s3(json_data, bucket, file_name)
